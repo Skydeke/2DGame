@@ -6,7 +6,7 @@
 
     <groupId>skydeke</groupId>
     <artifactId>2DGame</artifactId>
-    <version>2DGame-v1.0</version>
+    <version>v1.0</version>
 
     <build>
         <directory>${project.basedir}/target</directory>
@@ -40,38 +40,22 @@
                             <createDependencyReducedPom>false</createDependencyReducedPom>
                             <filters>
                                 <filter>
-
                                     <artifact>*:*</artifact>
                                     <excludes>
-
                                         <exclude>META-INF/*.SF</exclude>
-
                                         <exclude>META-INF/*.DSA</exclude>
-
                                         <exclude>META-INF/*.RSA</exclude>
-
                                         <exclude>.settings/**</exclude>
-
                                         <exclude>*.classpath</exclude>
-
                                         <exclude>*.project</exclude>
-
                                         <exclude>*.txt</exclude>
-
                                     </excludes>
-
                                 </filter>
-
                             </filters>
-
                         </configuration>
-
                     </execution>
-
                 </executions>
-
             </plugin>
-
         </plugins>
     </build>
 
